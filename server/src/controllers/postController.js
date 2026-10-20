@@ -1,6 +1,6 @@
 
 const mongoose = require('mongoose');
-const Post = require('../models/Post');
+const Post = require('../models/post');
 const Tag = require('../models/Tag');
 const ApiError = require('../utils/ApiError');
 const asyncHandler = require('../utils/asyncHandler');
