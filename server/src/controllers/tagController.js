@@ -1,6 +1,6 @@
 
 const Tag = require('../models/Tag');
-const Post = require('../models/Post');
+const Post = require('../models/post');
 const asyncHandler = require('../utils/asyncHandler');
 
 const getTags = asyncHandler(async (req, res) => {
@@ -42,3 +42,4 @@ const getTags = asyncHandler(async (req, res) => {
 });
 
 module.exports = { getTags };
+
