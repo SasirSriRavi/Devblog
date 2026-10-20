@@ -1,7 +1,7 @@
 
 const mongoose = require('mongoose');
 const User = require('../models/User');
-const Post = require('../models/Post');
+const Post = require('../models/post');
 const ApiError = require('../utils/ApiError');
 const asyncHandler = require('../utils/asyncHandler');
 
@@ -89,3 +89,4 @@ module.exports = {
   getPublicProfile,
   updateMyProfile,
 };
+
